@@ -11,22 +11,24 @@ Staging area is a tool to configure the commit which makes commit much more flex
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-
+By putting to the staging area only files related to the change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-
+Branches help to organize and safely test different builds with different functions of the programme.
 
 How do the diagrams help you visualize the branch structure?
 
-
+Diagrams present the branches and commits in a readable form.
+git log --graph [--oneline] [branch_name1 branch_name2...]
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-
+Merging branches results in combination of changes made in all branches if they don't cause a conflict. Diagram representation helps us to understand what changes will be included in the merge commit.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
+Automatic merges are quick and easy but they don't work in some situations while manual merges require some effort but may handle any merge conflict even the most complicated ones.
