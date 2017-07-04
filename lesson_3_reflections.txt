@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Separate branches are especially useful when there are several new ideas in the project, each of them should be developed separately from the rest of the project being up-to-date the same time. Several branches may also be useful if several people develop the project. Commiting directly to master btanch saves time if you do not need extra control over commits and the project is simple or there is only one direction in which the projecct is being developed. Multiple branches approach makes your project more organised and allows control over more commits in different areas of the project.
